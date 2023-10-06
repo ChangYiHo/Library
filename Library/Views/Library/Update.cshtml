@@ -1,0 +1,268 @@
+﻿
+
+
+<h2>修改</h2>
+    <hr />
+<form id="UpdateForm">
+    <div class="form-horizontal">
+        <h4>LibraryUpdate</h4>
+        <hr />
+        <div class="form-group">
+            <div class="col-md-1">
+                <label>書名</label>
+            </div>
+            <div class="col-md-11">
+                <input class="k-textbox" data-val="true" id="bookname" name="bookname" type="text" style="width: 29.5%" required validationMessage="此欄位必填" />
+                <span class="k-invalid-msg" data-for="bookname"></span>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-1">
+                <label>作者</label>
+            </div>
+            <div class="col-md-11">
+                <input class="k-textbox" data-val="true" id="author" name="author" type="text" style="width: 29.5%" required validationMessage="此欄位必填" />
+                <span class="k-invalid-msg" data-for="author"></span>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-1">
+                <label>出版商</label>
+            </div>
+            <div class="col-md-10">
+                <input class="k-textbox" data-val="true" id="publisher" name="publisher" type="text" style="width: 29.5%" required validationMessage="此欄位必填" />
+                <span class="k-invalid-msg" data-for="publisher"></span>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-1">
+                <label>內容簡介</label>
+            </div>
+            <div class="col-md-10">
+                @*<input id="booknote" class="k-textbox"/>*@
+                <textarea class="k-textbox" cols="20" data-val="true" id="booknote" name="booknote" rows="5" style="width: 29.5%" required validationMessage="此欄位必填"></textarea>
+                <span class="k-invalid-msg" data-for="booknote"></span>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-1">
+                <label>購買日期</label>
+            </div>
+            <div class="col-md-10">
+                <input class="k-textbox" data-val="true" id="boughtdate" name="boughtdate" type="text" style="width: 29.5%" required validationMessage="此欄位必填" />
+                <span class="k-invalid-msg" data-for="boughtdate"></span>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-1">
+                <label>書籍類別</label>
+            </div>
+            <div class="col-md-10">
+                <input class="k-textbox" data-val="true" id="category" name="category" type="text" style="width: 29.5%" required validationMessage="此欄位必填" />
+                <span class="k-invalid-msg" data-for="category"></span>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-1">
+                <label>借閱狀態</label>
+            </div>
+            <div class="col-md-10">
+                <input class="k-textbox" data-val="true" id="status" name="status" type="text" style="width: 29.5%" onchange="ChangeStatus()" required validationMessage="此欄位必填" />
+                <span class="k-invalid-msg" data-for="status"></span>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-1">
+                <label>借閱人</label>
+            </div>
+            <div class="col-md-10">
+                <input class="k-textbox" id="keeper" name="keeper" style="width: 29.5%" required validationMessage="此欄位必填"/>
+                <span class="k-invalid-msg" data-for="keeper"></span>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="button" value="刪除" id="btnDelete" class="btn btn-default" />
+
+                <input type="button" value="存檔" id="btnUpdate" class="btn btn-default" />
+            </div>
+        </div>
+        <a href="/Library/Search">返回查詢</a>
+    </div>
+</form>
+   
+
+<style>
+    span.k-widget.k-tooltip-validation::after {
+        display: inline-block;
+        width: 160px;
+        text-align: left;
+        border: 0;
+        padding: 0;
+        margin: 0;
+        background: none;
+        box-shadow: none;
+        color: red;
+    }
+
+    .k-tooltip-validation .k-warning {
+        display: none;
+    }
+</style>
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        //取得Book_Id
+        var url_string = location.href; //window.location.href
+        var url = new URL(url_string);
+        var id = url.searchParams.get('bookId');
+
+        //日期
+        $("#boughtdate").kendoDatePicker({
+            format: "yyyy/MM/dd",
+            value: new Date(), //預設值是今天
+            max: new Date(), //日期最多到今天
+            dateInput: true
+        })
+        
+        ////下拉選單(圖書類別)
+        GetDropDownList("#category", "/Library/GetBookClassData");
+
+        //下拉選單(借閱人)
+        GetDropDownList("#keeper", "/Library/GetCEName");
+
+        //下拉選單(借閱狀態)
+        GetDropDownList("#status", "/Library/GetBookStatusData");
+
+        //書籍資料
+        $.ajax({
+            type: "POST",
+            url: "/Library/GetBookData",
+            data: 
+                {
+                    bookId: id
+                   
+                },
+            dataType: "json",
+            success: function (response) {
+                $("#bookname").val(response.BOOK_NAME);
+                $("#author").val(response.BOOK_AUTHOR);
+                $("#publisher").val(response.BOOK_PUBLISHER);
+                $("#booknote").val(response.BOOK_NOTE);
+                $("#boughtdate").val(response.BOOK_BOUGHT_DATE);
+                $("#category").data("kendoDropDownList").value(response.BOOK_CLASS_NAME);
+                $("#status").data("kendoDropDownList").value(response.CODE_NAME);
+                $("#keeper").data("kendoDropDownList").value(response.USER_NAME);
+                ChangeStatus();
+            }, error: function (error) {
+                alert("系統發生錯誤");
+            }
+        });
+
+        var validator = $("#UpdateForm").kendoValidator().data("kendoValidator");
+        //更新&存檔
+        $("#btnUpdate").click(function (e) {
+            if (validator.validate()) {
+                e.preventDefault();
+                $.ajax({
+                    type: "POST",
+                    url: "/Library/UpdateBook",
+                    data: {
+                        BOOK_ID: id,
+                        BOOK_NAME: $("#bookname").val(),
+                        BOOK_AUTHOR: $("#author").val(),
+                        BOOK_PUBLISHER: $("#publisher").val(),
+                        BOOK_NOTE: $("#booknote").val(),
+                        BOOK_BOUGHT_DATE: $("#boughtdate").val(),
+                        BOOK_CLASS_NAME: $("#category").data("kendoDropDownList").value(),
+                        CODE_NAME: $("#status").data("kendoDropDownList").value(),
+                        USER_NAME: $("#keeper").data("kendoDropDownList").value(),
+
+                    },
+                    dataType: "json",
+                    success: function (response) {
+                        alert("修改成功");
+                        location.href = '/Library/Search';
+                    },error: function (error) {
+                        alert("系統發生錯誤");
+                    }
+                });
+            }
+            
+
+        });
+
+        //刪除
+        $("#btnDelete").click(function (e) {
+            e.preventDefault();
+            $.ajax({
+                type: "POST",
+                url: "/Library/GetBookData",
+                data: {
+                    bookId: id
+                },
+                dataType: "json",
+                success: function (response) {
+                    if (response.CODE_NAME == "A" || response.CODE_NAME == "U") {
+                        if (confirm("確定要刪除?")) {
+                            $.ajax({
+                                type: "POST",
+                                url: "/Library/DeleteBook",
+                                data: {
+                                    bookId: id
+                                },
+                                dataType: "json",
+
+                                success: function (responce) {
+                                    $("#Search").click(); //重整頁面
+                                    alert("資料已刪除");
+                                },
+                                error: function (error) {
+                                    alert("系統發生錯誤");
+                                }
+                            });
+                        }
+                        else {
+                            alert("已取消刪除");
+                        }
+                    }
+                    else if (response.CODE_NAME == "B" || response.CODE_NAME == "C") {
+                        alert("書籍已借出，不可刪除!!!");
+                    }
+                    else {
+                        alert("系統發生錯誤");
+                    }
+                },error: function (error) {
+                    alert("系統發生錯誤");
+                }
+            });
+            
+
+        });
+    });
+    function ChangeStatus() {
+        var bookstatus = $("#status").data("kendoDropDownList").value();
+        var bookkeeper = $("#keeper").data("kendoDropDownList");
+        if (bookstatus == "A" || bookstatus == "U") { //如果借閱狀態是可以借出(A)or不可借出(U)
+            bookkeeper.select(0); //將借閱人選項設定在請選擇...
+            bookkeeper.enable(false); //開啟唯讀
+            bookkeeper.prop('required', false); //將借閱人回傳的validationMessage關掉
+        }
+        else if (bookstatus == "B" || bookstatus == "C") {
+            bookkeeper.enable(true); //關閉唯讀
+        }
+    }
+
+
+
+
+</script>

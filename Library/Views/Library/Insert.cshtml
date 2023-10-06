@@ -1,0 +1,169 @@
+﻿@{
+    ViewBag.Title = "Insert";
+}
+
+<h2>圖書新增</h2>
+
+
+
+<div class="form-horizontal">
+    <hr />
+
+    <form id="InsertForm">
+        <div class="form-group">
+        <div class="col-md-1">
+            <label for="bookname"><span style="color:red">*</span>書名</label>
+        </div>       
+        <div class="col-md-11">
+            <input class="k-textbox" data-val="true" id="bookname" name="bookname" type="text" style="width: 29.5%" required validationMessage="此欄位必填" />
+            <span class="k-invalid-msg" data-for="bookname"></span>
+        </div>
+    </div>
+
+        <div class="form-group">
+            <div class="col-md-1">
+                <label for="author"><span style="color:red">*</span>作者</label>
+            </div>
+            <div class="col-md-10">
+                <input class="k-textbox" data-val="true" id="author" name="author" type="text" style="width: 29.5%" required validationMessage="此欄位必填" />
+                <span class="k-invalid-msg" data-for="author"></span>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-1">
+                <label for="publisher"><span style="color:red">*</span>出版商</label>
+            </div>
+            <div class="col-md-10">
+                <input class="k-textbox" data-val="true" id="publisher" name="publisher" type="text" style="width: 29.5%" required validationMessage="此欄位必填" />
+                <span class="k-invalid-msg" data-for="publisher"></span>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-1">
+                <label for="booknote"><span style="color:red">*</span>內容簡介</label>
+            </div>
+            <div class="col-md-10">
+                @*<input id="booknote" class="k-textbox" required validationMessage="Enter {0}" style="width: 220px;"/>*@
+                <textarea class="k-textbox" cols="20" data-val="true" id="booknote" name="booknote" rows="5" style="width: 29.5%" required validationMessage="此欄位必填"></textarea>
+                <span class="k-invalid-msg" data-for="booknote"></span>            
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-1">
+                <label for="boughtdate"><span style="color:red">*</span>購書日期</label>
+            </div>
+            <div class="col-md-10">
+                <input class="k-textbox" data-val="true" id="boughtdate" name="boughtdate" type="text" style="width: 29.5%" required validationMessage="此欄位必填" />
+                <span class="k-invalid-msg" data-for="boughtdate"></span>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-1">
+                <label for="catgory"><span style="color:red">*</span>圖書類別</label>
+            </div>
+            <div class="col-md-10">
+                <input class="k-textbox" data-val="true" id="category" name="category" type="text" style="width: 29.5%" required validationMessage="此欄位必填" />
+                <span class="k-invalid-msg" data-for="category"></span>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input id="Insert" type="button" value="新增" />
+            </div>
+        </div>
+    <a href="/Library/Search">返回查詢</a>
+
+    </form>
+    
+</div>
+
+
+<style>
+
+    span.k-widget.k-tooltip-validation::after {
+        display: inline-block;
+        width: 160px;
+        text-align: left;
+        border: 0;
+        padding: 0;
+        margin: 0;
+        background: none;
+        box-shadow: none;
+        color: red;
+    }
+
+    .k-tooltip-validation .k-warning {
+        display: none;
+    }
+</style>
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        //下拉選單圖書類別
+        GetDropDownList("#category", "/Library/GetBookClassData");
+
+        //日期
+        $("#boughtdate").kendoDatePicker({
+            format: "yyyy/MM/dd",
+            value: new Date(), //預設值是今天
+            max: new Date(), //日期最多到今天
+            dateInput: true
+        })
+
+
+        var validator = $("#InsertForm").kendoValidator().data("kendoValidator");
+        //新增
+        $("#Insert").click(function () {
+
+            if (validator.validate()) {
+                $.ajax({
+                    url: "/Library/Insert",
+                    type: "POST",
+                    data: {
+                        BOOK_NAME: $("#bookname").val(),
+                        BOOK_AUTHOR: $("#author").val(),
+                        BOOK_PUBLISHER: $("#publisher").val(),
+                        BOOK_NOTE: $("#booknote").val(),
+                        BOOK_BOUGHT_DATE: $("#boughtdate").val(),
+                        BOOK_CLASS_ID: $("#category").data("kendoDropDownList").value(),
+                    },
+                    dataType: "Json",
+                    success: function (response) {
+                        if (response) {
+                            alert("存檔成功");
+                            var url = "/Library/Insert";//繼續新增
+                            //location.replace = (url);
+                            location.href = url;
+                        }
+                        else {
+                            alert("系統發生錯誤");
+                        }
+                    },
+                    error: function (error) {
+                        debugger;
+                        alert("系統發生錯誤");
+                    }
+                });
+            }
+            else {
+                alert("請輸入完整");
+            }
+                
+
+        })
+
+        
+
+
+
+    });
+
+    
+</script>
+

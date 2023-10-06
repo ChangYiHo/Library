@@ -1,0 +1,17 @@
+C:\Users\ASUS\Desktop\WorkShop\Course4_george_ho\Library.Common\bin\Debug\Library.Common.dll
+C:\Users\ASUS\Desktop\WorkShop\Course4_george_ho\Library.Common\bin\Debug\Library.Common.pdb
+C:\Users\ASUS\Desktop\WorkShop\Course4_george_ho\Library.Common\obj\Debug\Library.Common.csprojResolveAssemblyReference.cache
+C:\Users\ASUS\Desktop\WorkShop\Course4_george_ho\Library.Common\obj\Debug\Library.Common.dll
+C:\Users\ASUS\Desktop\WorkShop\Course4_george_ho\Library.Common\obj\Debug\Library.Common.pdb
+C:\Users\ASUS\Desktop\WorkShop\Course4_george_ho\Library.Common\bin\Debug\log4net.dll
+C:\Users\ASUS\Desktop\WorkShop\Course4_george_ho\Library.Common\bin\Debug\log4net.xml
+C:\叡揚實習\新人訓練\WorkShop\Course5_george_ho\Library.Common\bin\Debug\Library.Common.dll
+C:\叡揚實習\新人訓練\WorkShop\Course5_george_ho\Library.Common\bin\Debug\Library.Common.pdb
+C:\叡揚實習\新人訓練\WorkShop\Course5_george_ho\Library.Common\bin\Debug\log4net.dll
+C:\叡揚實習\新人訓練\WorkShop\Course5_george_ho\Library.Common\bin\Debug\Newtonsoft.Json.dll
+C:\叡揚實習\新人訓練\WorkShop\Course5_george_ho\Library.Common\bin\Debug\log4net.xml
+C:\叡揚實習\新人訓練\WorkShop\Course5_george_ho\Library.Common\bin\Debug\Newtonsoft.Json.pdb
+C:\叡揚實習\新人訓練\WorkShop\Course5_george_ho\Library.Common\bin\Debug\Newtonsoft.Json.xml
+C:\叡揚實習\新人訓練\WorkShop\Course5_george_ho\Library.Common\obj\Debug\Library.Common.csprojResolveAssemblyReference.cache
+C:\叡揚實習\新人訓練\WorkShop\Course5_george_ho\Library.Common\obj\Debug\Library.Common.dll
+C:\叡揚實習\新人訓練\WorkShop\Course5_george_ho\Library.Common\obj\Debug\Library.Common.pdb

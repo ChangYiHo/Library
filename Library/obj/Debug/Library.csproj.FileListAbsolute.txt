@@ -1,0 +1,265 @@
+c:\users\asus\documents\visual studio 2015\Projects\Library\Library\bin\ApplicationInsights.config
+c:\users\asus\documents\visual studio 2015\Projects\Library\Library\bin\roslyn\csc.exe
+c:\users\asus\documents\visual studio 2015\Projects\Library\Library\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\asus\documents\visual studio 2015\Projects\Library\Library\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\asus\documents\visual studio 2015\Projects\Library\Library\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\asus\documents\visual studio 2015\Projects\Library\Library\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\asus\documents\visual studio 2015\Projects\Library\Library\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\asus\documents\visual studio 2015\Projects\Library\Library\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\asus\documents\visual studio 2015\Projects\Library\Library\bin\roslyn\System.Collections.Immutable.dll
+c:\users\asus\documents\visual studio 2015\Projects\Library\Library\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\asus\documents\visual studio 2015\Projects\Library\Library\bin\roslyn\vbc.exe
+c:\users\asus\documents\visual studio 2015\Projects\Library\Library\bin\roslyn\VBCSCompiler.exe
+c:\users\asus\documents\visual studio 2015\Projects\Library\Library\bin\roslyn\VBCSCompiler.exe.config
+c:\users\asus\documents\visual studio 2015\Projects\Library\Library\bin\Library.dll.config
+c:\users\asus\documents\visual studio 2015\Projects\Library\Library\bin\Library.dll
+c:\users\asus\documents\visual studio 2015\Projects\Library\Library\bin\Library.pdb
+c:\users\asus\documents\visual studio 2015\Projects\Library\Library\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\asus\documents\visual studio 2015\Projects\Library\Library\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\asus\documents\visual studio 2015\Projects\Library\Library\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\asus\documents\visual studio 2015\Projects\Library\Library\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\asus\documents\visual studio 2015\Projects\Library\Library\bin\Microsoft.AI.Web.dll
+c:\users\asus\documents\visual studio 2015\Projects\Library\Library\bin\Microsoft.AI.WindowsServer.dll
+c:\users\asus\documents\visual studio 2015\Projects\Library\Library\bin\Microsoft.ApplicationInsights.dll
+c:\users\asus\documents\visual studio 2015\Projects\Library\Library\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\asus\documents\visual studio 2015\Projects\Library\Library\bin\Microsoft.Web.Infrastructure.dll
+c:\users\asus\documents\visual studio 2015\Projects\Library\Library\bin\System.Web.Helpers.dll
+c:\users\asus\documents\visual studio 2015\Projects\Library\Library\bin\System.Web.Mvc.dll
+c:\users\asus\documents\visual studio 2015\Projects\Library\Library\bin\System.Web.Razor.dll
+c:\users\asus\documents\visual studio 2015\Projects\Library\Library\bin\System.Web.Webpages.Deployment.dll
+c:\users\asus\documents\visual studio 2015\Projects\Library\Library\bin\System.Web.Webpages.dll
+c:\users\asus\documents\visual studio 2015\Projects\Library\Library\bin\System.Web.Webpages.Razor.dll
+c:\users\asus\documents\visual studio 2015\Projects\Library\Library\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\asus\documents\visual studio 2015\Projects\Library\Library\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\asus\documents\visual studio 2015\Projects\Library\Library\bin\Microsoft.AI.Web.xml
+c:\users\asus\documents\visual studio 2015\Projects\Library\Library\bin\Microsoft.AI.WindowsServer.xml
+c:\users\asus\documents\visual studio 2015\Projects\Library\Library\bin\Microsoft.ApplicationInsights.xml
+c:\users\asus\documents\visual studio 2015\Projects\Library\Library\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\asus\documents\visual studio 2015\Projects\Library\Library\bin\System.Web.Razor.xml
+c:\users\asus\documents\visual studio 2015\Projects\Library\Library\bin\System.Web.Webpages.xml
+c:\users\asus\documents\visual studio 2015\Projects\Library\Library\bin\System.Web.Webpages.Deployment.xml
+c:\users\asus\documents\visual studio 2015\Projects\Library\Library\bin\System.Web.Webpages.Razor.xml
+c:\users\asus\documents\visual studio 2015\Projects\Library\Library\bin\System.Web.Helpers.xml
+c:\users\asus\documents\visual studio 2015\Projects\Library\Library\bin\System.Web.Mvc.xml
+c:\users\asus\documents\visual studio 2015\Projects\Library\Library\bin\zh-Hant\System.Web.Razor.resources.dll
+c:\users\asus\documents\visual studio 2015\Projects\Library\Library\bin\zh-Hant\System.Web.Webpages.resources.dll
+c:\users\asus\documents\visual studio 2015\Projects\Library\Library\bin\zh-Hant\System.Web.Webpages.Deployment.resources.dll
+c:\users\asus\documents\visual studio 2015\Projects\Library\Library\bin\zh-Hant\System.Web.Webpages.Razor.resources.dll
+c:\users\asus\documents\visual studio 2015\Projects\Library\Library\bin\zh-Hant\System.Web.Helpers.resources.dll
+c:\users\asus\documents\visual studio 2015\Projects\Library\Library\bin\zh-Hant\System.Web.Mvc.resources.dll
+c:\users\asus\documents\visual studio 2015\Projects\Library\Library\obj\Debug\Library.csprojResolveAssemblyReference.cache
+c:\users\asus\documents\visual studio 2015\Projects\Library\Library\obj\Debug\Library.dll
+c:\users\asus\documents\visual studio 2015\Projects\Library\Library\obj\Debug\Library.pdb
+C:\Users\ASUS\Desktop\WorkShop\WORK3\Library\bin\ApplicationInsights.config
+C:\Users\ASUS\Desktop\WorkShop\WORK3\Library\bin\roslyn\csc.exe
+C:\Users\ASUS\Desktop\WorkShop\WORK3\Library\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ASUS\Desktop\WorkShop\WORK3\Library\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ASUS\Desktop\WorkShop\WORK3\Library\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ASUS\Desktop\WorkShop\WORK3\Library\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ASUS\Desktop\WorkShop\WORK3\Library\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ASUS\Desktop\WorkShop\WORK3\Library\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ASUS\Desktop\WorkShop\WORK3\Library\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ASUS\Desktop\WorkShop\WORK3\Library\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ASUS\Desktop\WorkShop\WORK3\Library\bin\roslyn\vbc.exe
+C:\Users\ASUS\Desktop\WorkShop\WORK3\Library\bin\roslyn\VBCSCompiler.exe
+C:\Users\ASUS\Desktop\WorkShop\WORK3\Library\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ASUS\Desktop\WorkShop\WORK3\Library\bin\Library.dll.config
+C:\Users\ASUS\Desktop\WorkShop\WORK3\Library\bin\Library.dll
+C:\Users\ASUS\Desktop\WorkShop\WORK3\Library\bin\Library.pdb
+C:\Users\ASUS\Desktop\WorkShop\WORK3\Library\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\ASUS\Desktop\WorkShop\WORK3\Library\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\ASUS\Desktop\WorkShop\WORK3\Library\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\ASUS\Desktop\WorkShop\WORK3\Library\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\ASUS\Desktop\WorkShop\WORK3\Library\bin\Microsoft.AI.Web.dll
+C:\Users\ASUS\Desktop\WorkShop\WORK3\Library\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\ASUS\Desktop\WorkShop\WORK3\Library\bin\Microsoft.ApplicationInsights.dll
+C:\Users\ASUS\Desktop\WorkShop\WORK3\Library\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ASUS\Desktop\WorkShop\WORK3\Library\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ASUS\Desktop\WorkShop\WORK3\Library\bin\System.Web.Helpers.dll
+C:\Users\ASUS\Desktop\WorkShop\WORK3\Library\bin\System.Web.Mvc.dll
+C:\Users\ASUS\Desktop\WorkShop\WORK3\Library\bin\System.Web.Razor.dll
+C:\Users\ASUS\Desktop\WorkShop\WORK3\Library\bin\System.Web.Webpages.Deployment.dll
+C:\Users\ASUS\Desktop\WorkShop\WORK3\Library\bin\System.Web.Webpages.dll
+C:\Users\ASUS\Desktop\WorkShop\WORK3\Library\bin\System.Web.Webpages.Razor.dll
+C:\Users\ASUS\Desktop\WorkShop\WORK3\Library\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\ASUS\Desktop\WorkShop\WORK3\Library\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\ASUS\Desktop\WorkShop\WORK3\Library\bin\Microsoft.AI.Web.xml
+C:\Users\ASUS\Desktop\WorkShop\WORK3\Library\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\ASUS\Desktop\WorkShop\WORK3\Library\bin\Microsoft.ApplicationInsights.xml
+C:\Users\ASUS\Desktop\WorkShop\WORK3\Library\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ASUS\Desktop\WorkShop\WORK3\Library\bin\System.Web.Razor.xml
+C:\Users\ASUS\Desktop\WorkShop\WORK3\Library\bin\System.Web.Webpages.xml
+C:\Users\ASUS\Desktop\WorkShop\WORK3\Library\bin\System.Web.Webpages.Deployment.xml
+C:\Users\ASUS\Desktop\WorkShop\WORK3\Library\bin\System.Web.Webpages.Razor.xml
+C:\Users\ASUS\Desktop\WorkShop\WORK3\Library\bin\System.Web.Helpers.xml
+C:\Users\ASUS\Desktop\WorkShop\WORK3\Library\bin\System.Web.Mvc.xml
+C:\Users\ASUS\Desktop\WorkShop\WORK3\Library\bin\zh-Hant\System.Web.Razor.resources.dll
+C:\Users\ASUS\Desktop\WorkShop\WORK3\Library\bin\zh-Hant\System.Web.Webpages.resources.dll
+C:\Users\ASUS\Desktop\WorkShop\WORK3\Library\bin\zh-Hant\System.Web.Webpages.Deployment.resources.dll
+C:\Users\ASUS\Desktop\WorkShop\WORK3\Library\bin\zh-Hant\System.Web.Webpages.Razor.resources.dll
+C:\Users\ASUS\Desktop\WorkShop\WORK3\Library\bin\zh-Hant\System.Web.Helpers.resources.dll
+C:\Users\ASUS\Desktop\WorkShop\WORK3\Library\bin\zh-Hant\System.Web.Mvc.resources.dll
+C:\Users\ASUS\Desktop\WorkShop\WORK3\Library\obj\Debug\Library.csprojResolveAssemblyReference.cache
+C:\Users\ASUS\Desktop\WorkShop\WORK3\Library\obj\Debug\Library.dll
+C:\Users\ASUS\Desktop\WorkShop\WORK3\Library\obj\Debug\Library.pdb
+C:\Users\ASUS\Desktop\WorkShop\Course4_george_ho\Library\obj\Debug\Library.csprojResolveAssemblyReference.cache
+C:\Users\ASUS\Desktop\WorkShop\Course4_george_ho\Library\obj\Debug\Library.dll
+C:\Users\ASUS\Desktop\WorkShop\Course4_george_ho\Library\obj\Debug\Library.pdb
+C:\Users\ASUS\Desktop\WorkShop\Course4_george_ho\Library\bin\ApplicationInsights.config
+C:\Users\ASUS\Desktop\WorkShop\Course4_george_ho\Library\bin\roslyn\csc.exe
+C:\Users\ASUS\Desktop\WorkShop\Course4_george_ho\Library\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ASUS\Desktop\WorkShop\Course4_george_ho\Library\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ASUS\Desktop\WorkShop\Course4_george_ho\Library\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ASUS\Desktop\WorkShop\Course4_george_ho\Library\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ASUS\Desktop\WorkShop\Course4_george_ho\Library\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ASUS\Desktop\WorkShop\Course4_george_ho\Library\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ASUS\Desktop\WorkShop\Course4_george_ho\Library\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ASUS\Desktop\WorkShop\Course4_george_ho\Library\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ASUS\Desktop\WorkShop\Course4_george_ho\Library\bin\roslyn\vbc.exe
+C:\Users\ASUS\Desktop\WorkShop\Course4_george_ho\Library\bin\roslyn\VBCSCompiler.exe
+C:\Users\ASUS\Desktop\WorkShop\Course4_george_ho\Library\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ASUS\Desktop\WorkShop\Course4_george_ho\Library\bin\Library.dll.config
+C:\Users\ASUS\Desktop\WorkShop\Course4_george_ho\Library\bin\Library.dll
+C:\Users\ASUS\Desktop\WorkShop\Course4_george_ho\Library\bin\Library.pdb
+C:\Users\ASUS\Desktop\WorkShop\Course4_george_ho\Library\bin\Library.Common.dll
+C:\Users\ASUS\Desktop\WorkShop\Course4_george_ho\Library\bin\Library.Model.dll
+C:\Users\ASUS\Desktop\WorkShop\Course4_george_ho\Library\bin\Library.Service.dll
+C:\Users\ASUS\Desktop\WorkShop\Course4_george_ho\Library\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\ASUS\Desktop\WorkShop\Course4_george_ho\Library\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\ASUS\Desktop\WorkShop\Course4_george_ho\Library\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\ASUS\Desktop\WorkShop\Course4_george_ho\Library\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\ASUS\Desktop\WorkShop\Course4_george_ho\Library\bin\Microsoft.AI.Web.dll
+C:\Users\ASUS\Desktop\WorkShop\Course4_george_ho\Library\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\ASUS\Desktop\WorkShop\Course4_george_ho\Library\bin\Microsoft.ApplicationInsights.dll
+C:\Users\ASUS\Desktop\WorkShop\Course4_george_ho\Library\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ASUS\Desktop\WorkShop\Course4_george_ho\Library\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ASUS\Desktop\WorkShop\Course4_george_ho\Library\bin\System.Web.Helpers.dll
+C:\Users\ASUS\Desktop\WorkShop\Course4_george_ho\Library\bin\System.Web.Mvc.dll
+C:\Users\ASUS\Desktop\WorkShop\Course4_george_ho\Library\bin\System.Web.Razor.dll
+C:\Users\ASUS\Desktop\WorkShop\Course4_george_ho\Library\bin\System.Web.Webpages.Deployment.dll
+C:\Users\ASUS\Desktop\WorkShop\Course4_george_ho\Library\bin\System.Web.Webpages.dll
+C:\Users\ASUS\Desktop\WorkShop\Course4_george_ho\Library\bin\System.Web.Webpages.Razor.dll
+C:\Users\ASUS\Desktop\WorkShop\Course4_george_ho\Library\bin\Library.Dao.dll
+C:\Users\ASUS\Desktop\WorkShop\Course4_george_ho\Library\bin\Library.Common.pdb
+C:\Users\ASUS\Desktop\WorkShop\Course4_george_ho\Library\bin\Library.Model.pdb
+C:\Users\ASUS\Desktop\WorkShop\Course4_george_ho\Library\bin\Library.Service.pdb
+C:\Users\ASUS\Desktop\WorkShop\Course4_george_ho\Library\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\ASUS\Desktop\WorkShop\Course4_george_ho\Library\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\ASUS\Desktop\WorkShop\Course4_george_ho\Library\bin\Microsoft.AI.Web.xml
+C:\Users\ASUS\Desktop\WorkShop\Course4_george_ho\Library\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\ASUS\Desktop\WorkShop\Course4_george_ho\Library\bin\Microsoft.ApplicationInsights.xml
+C:\Users\ASUS\Desktop\WorkShop\Course4_george_ho\Library\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ASUS\Desktop\WorkShop\Course4_george_ho\Library\bin\System.Web.Razor.xml
+C:\Users\ASUS\Desktop\WorkShop\Course4_george_ho\Library\bin\System.Web.Webpages.xml
+C:\Users\ASUS\Desktop\WorkShop\Course4_george_ho\Library\bin\System.Web.Webpages.Deployment.xml
+C:\Users\ASUS\Desktop\WorkShop\Course4_george_ho\Library\bin\System.Web.Webpages.Razor.xml
+C:\Users\ASUS\Desktop\WorkShop\Course4_george_ho\Library\bin\System.Web.Helpers.xml
+C:\Users\ASUS\Desktop\WorkShop\Course4_george_ho\Library\bin\System.Web.Mvc.xml
+C:\Users\ASUS\Desktop\WorkShop\Course4_george_ho\Library\bin\Library.Dao.pdb
+C:\Users\ASUS\Desktop\WorkShop\Course4_george_ho\Library\bin\zh-Hant\System.Web.Razor.resources.dll
+C:\Users\ASUS\Desktop\WorkShop\Course4_george_ho\Library\bin\zh-Hant\System.Web.Webpages.resources.dll
+C:\Users\ASUS\Desktop\WorkShop\Course4_george_ho\Library\bin\zh-Hant\System.Web.Webpages.Deployment.resources.dll
+C:\Users\ASUS\Desktop\WorkShop\Course4_george_ho\Library\bin\zh-Hant\System.Web.Webpages.Razor.resources.dll
+C:\Users\ASUS\Desktop\WorkShop\Course4_george_ho\Library\bin\zh-Hant\System.Web.Helpers.resources.dll
+C:\Users\ASUS\Desktop\WorkShop\Course4_george_ho\Library\bin\zh-Hant\System.Web.Mvc.resources.dll
+C:\Users\ASUS\Desktop\WorkShop\Course4_george_ho\Library\bin\log4net.dll
+C:\Users\ASUS\Desktop\WorkShop\Course4_george_ho\Library\bin\log4net.xml
+C:\Users\ASUS\Desktop\WorkShop\Course4_george_ho\Library\bin\Common.Logging.Core.dll
+C:\Users\ASUS\Desktop\WorkShop\Course4_george_ho\Library\bin\Common.Logging.dll
+C:\Users\ASUS\Desktop\WorkShop\Course4_george_ho\Library\bin\Spring.Core.dll
+C:\Users\ASUS\Desktop\WorkShop\Course4_george_ho\Library\bin\Spring.Web.dll
+C:\Users\ASUS\Desktop\WorkShop\Course4_george_ho\Library\bin\Spring.Web.Mvc5.dll
+C:\Users\ASUS\Desktop\WorkShop\Course4_george_ho\Library\bin\Common.Logging.pdb
+C:\Users\ASUS\Desktop\WorkShop\Course4_george_ho\Library\bin\Common.Logging.xml
+C:\Users\ASUS\Desktop\WorkShop\Course4_george_ho\Library\bin\Common.Logging.Core.pdb
+C:\Users\ASUS\Desktop\WorkShop\Course4_george_ho\Library\bin\Common.Logging.Core.xml
+C:\Users\ASUS\Desktop\WorkShop\Course4_george_ho\Library\bin\Spring.Core.pdb
+C:\Users\ASUS\Desktop\WorkShop\Course4_george_ho\Library\bin\Spring.Core.xml
+C:\Users\ASUS\Desktop\WorkShop\Course4_george_ho\Library\bin\Spring.Web.pdb
+C:\Users\ASUS\Desktop\WorkShop\Course4_george_ho\Library\bin\Spring.Web.xml
+C:\Users\ASUS\Desktop\WorkShop\Course4_george_ho\Library\bin\Spring.Web.Mvc5.pdb
+C:\Users\ASUS\Desktop\WorkShop\Course4_george_ho\Library\bin\Spring.Web.Mvc5.xml
+C:\叡揚實習\新人訓練\WorkShop\Course5_george_ho\Library\bin\ApplicationInsights.config
+C:\叡揚實習\新人訓練\WorkShop\Course5_george_ho\Library\bin\roslyn\csc.exe
+C:\叡揚實習\新人訓練\WorkShop\Course5_george_ho\Library\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\叡揚實習\新人訓練\WorkShop\Course5_george_ho\Library\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\叡揚實習\新人訓練\WorkShop\Course5_george_ho\Library\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\叡揚實習\新人訓練\WorkShop\Course5_george_ho\Library\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\叡揚實習\新人訓練\WorkShop\Course5_george_ho\Library\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\叡揚實習\新人訓練\WorkShop\Course5_george_ho\Library\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\叡揚實習\新人訓練\WorkShop\Course5_george_ho\Library\bin\roslyn\System.Collections.Immutable.dll
+C:\叡揚實習\新人訓練\WorkShop\Course5_george_ho\Library\bin\roslyn\System.Reflection.Metadata.dll
+C:\叡揚實習\新人訓練\WorkShop\Course5_george_ho\Library\bin\roslyn\vbc.exe
+C:\叡揚實習\新人訓練\WorkShop\Course5_george_ho\Library\bin\roslyn\VBCSCompiler.exe
+C:\叡揚實習\新人訓練\WorkShop\Course5_george_ho\Library\bin\roslyn\VBCSCompiler.exe.config
+C:\叡揚實習\新人訓練\WorkShop\Course5_george_ho\Library\bin\Library.dll.config
+C:\叡揚實習\新人訓練\WorkShop\Course5_george_ho\Library\bin\Library.dll
+C:\叡揚實習\新人訓練\WorkShop\Course5_george_ho\Library\bin\Library.pdb
+C:\叡揚實習\新人訓練\WorkShop\Course5_george_ho\Library\bin\Common.Logging.Core.dll
+C:\叡揚實習\新人訓練\WorkShop\Course5_george_ho\Library\bin\Common.Logging.dll
+C:\叡揚實習\新人訓練\WorkShop\Course5_george_ho\Library\bin\Library.Common.dll
+C:\叡揚實習\新人訓練\WorkShop\Course5_george_ho\Library\bin\Library.Model.dll
+C:\叡揚實習\新人訓練\WorkShop\Course5_george_ho\Library\bin\Library.Service.dll
+C:\叡揚實習\新人訓練\WorkShop\Course5_george_ho\Library\bin\Microsoft.AI.Agent.Intercept.dll
+C:\叡揚實習\新人訓練\WorkShop\Course5_george_ho\Library\bin\Microsoft.AI.DependencyCollector.dll
+C:\叡揚實習\新人訓練\WorkShop\Course5_george_ho\Library\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\叡揚實習\新人訓練\WorkShop\Course5_george_ho\Library\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\叡揚實習\新人訓練\WorkShop\Course5_george_ho\Library\bin\Microsoft.AI.Web.dll
+C:\叡揚實習\新人訓練\WorkShop\Course5_george_ho\Library\bin\Microsoft.AI.WindowsServer.dll
+C:\叡揚實習\新人訓練\WorkShop\Course5_george_ho\Library\bin\Microsoft.ApplicationInsights.dll
+C:\叡揚實習\新人訓練\WorkShop\Course5_george_ho\Library\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\叡揚實習\新人訓練\WorkShop\Course5_george_ho\Library\bin\Microsoft.Web.Infrastructure.dll
+C:\叡揚實習\新人訓練\WorkShop\Course5_george_ho\Library\bin\Spring.Core.dll
+C:\叡揚實習\新人訓練\WorkShop\Course5_george_ho\Library\bin\Spring.Web.dll
+C:\叡揚實習\新人訓練\WorkShop\Course5_george_ho\Library\bin\Spring.Web.Mvc5.dll
+C:\叡揚實習\新人訓練\WorkShop\Course5_george_ho\Library\bin\System.Web.Helpers.dll
+C:\叡揚實習\新人訓練\WorkShop\Course5_george_ho\Library\bin\System.Web.Mvc.dll
+C:\叡揚實習\新人訓練\WorkShop\Course5_george_ho\Library\bin\System.Web.Razor.dll
+C:\叡揚實習\新人訓練\WorkShop\Course5_george_ho\Library\bin\System.Web.Webpages.Deployment.dll
+C:\叡揚實習\新人訓練\WorkShop\Course5_george_ho\Library\bin\System.Web.Webpages.dll
+C:\叡揚實習\新人訓練\WorkShop\Course5_george_ho\Library\bin\System.Web.Webpages.Razor.dll
+C:\叡揚實習\新人訓練\WorkShop\Course5_george_ho\Library\bin\log4net.dll
+C:\叡揚實習\新人訓練\WorkShop\Course5_george_ho\Library\bin\Library.Dao.dll
+C:\叡揚實習\新人訓練\WorkShop\Course5_george_ho\Library\bin\Library.Common.pdb
+C:\叡揚實習\新人訓練\WorkShop\Course5_george_ho\Library\bin\Library.Model.pdb
+C:\叡揚實習\新人訓練\WorkShop\Course5_george_ho\Library\bin\Library.Service.pdb
+C:\叡揚實習\新人訓練\WorkShop\Course5_george_ho\Library\bin\Common.Logging.pdb
+C:\叡揚實習\新人訓練\WorkShop\Course5_george_ho\Library\bin\Common.Logging.xml
+C:\叡揚實習\新人訓練\WorkShop\Course5_george_ho\Library\bin\Common.Logging.Core.pdb
+C:\叡揚實習\新人訓練\WorkShop\Course5_george_ho\Library\bin\Common.Logging.Core.xml
+C:\叡揚實習\新人訓練\WorkShop\Course5_george_ho\Library\bin\Microsoft.AI.DependencyCollector.xml
+C:\叡揚實習\新人訓練\WorkShop\Course5_george_ho\Library\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\叡揚實習\新人訓練\WorkShop\Course5_george_ho\Library\bin\Microsoft.AI.Web.xml
+C:\叡揚實習\新人訓練\WorkShop\Course5_george_ho\Library\bin\Microsoft.AI.WindowsServer.xml
+C:\叡揚實習\新人訓練\WorkShop\Course5_george_ho\Library\bin\Microsoft.ApplicationInsights.xml
+C:\叡揚實習\新人訓練\WorkShop\Course5_george_ho\Library\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\叡揚實習\新人訓練\WorkShop\Course5_george_ho\Library\bin\Spring.Core.pdb
+C:\叡揚實習\新人訓練\WorkShop\Course5_george_ho\Library\bin\Spring.Core.xml
+C:\叡揚實習\新人訓練\WorkShop\Course5_george_ho\Library\bin\Spring.Web.pdb
+C:\叡揚實習\新人訓練\WorkShop\Course5_george_ho\Library\bin\Spring.Web.xml
+C:\叡揚實習\新人訓練\WorkShop\Course5_george_ho\Library\bin\Spring.Web.Mvc5.pdb
+C:\叡揚實習\新人訓練\WorkShop\Course5_george_ho\Library\bin\Spring.Web.Mvc5.xml
+C:\叡揚實習\新人訓練\WorkShop\Course5_george_ho\Library\bin\System.Web.Razor.xml
+C:\叡揚實習\新人訓練\WorkShop\Course5_george_ho\Library\bin\System.Web.Webpages.xml
+C:\叡揚實習\新人訓練\WorkShop\Course5_george_ho\Library\bin\System.Web.Webpages.Deployment.xml
+C:\叡揚實習\新人訓練\WorkShop\Course5_george_ho\Library\bin\System.Web.Webpages.Razor.xml
+C:\叡揚實習\新人訓練\WorkShop\Course5_george_ho\Library\bin\System.Web.Helpers.xml
+C:\叡揚實習\新人訓練\WorkShop\Course5_george_ho\Library\bin\System.Web.Mvc.xml
+C:\叡揚實習\新人訓練\WorkShop\Course5_george_ho\Library\bin\log4net.xml
+C:\叡揚實習\新人訓練\WorkShop\Course5_george_ho\Library\bin\Library.Dao.pdb
+C:\叡揚實習\新人訓練\WorkShop\Course5_george_ho\Library\bin\zh-Hant\System.Web.Razor.resources.dll
+C:\叡揚實習\新人訓練\WorkShop\Course5_george_ho\Library\bin\zh-Hant\System.Web.Webpages.resources.dll
+C:\叡揚實習\新人訓練\WorkShop\Course5_george_ho\Library\bin\zh-Hant\System.Web.Webpages.Deployment.resources.dll
+C:\叡揚實習\新人訓練\WorkShop\Course5_george_ho\Library\bin\zh-Hant\System.Web.Webpages.Razor.resources.dll
+C:\叡揚實習\新人訓練\WorkShop\Course5_george_ho\Library\bin\zh-Hant\System.Web.Helpers.resources.dll
+C:\叡揚實習\新人訓練\WorkShop\Course5_george_ho\Library\bin\zh-Hant\System.Web.Mvc.resources.dll
+C:\叡揚實習\新人訓練\WorkShop\Course5_george_ho\Library\obj\Debug\Library.csprojResolveAssemblyReference.cache
+C:\叡揚實習\新人訓練\WorkShop\Course5_george_ho\Library\obj\Debug\Library.dll
+C:\叡揚實習\新人訓練\WorkShop\Course5_george_ho\Library\obj\Debug\Library.pdb
+C:\叡揚實習\新人訓練\WorkShop\Course5_george_ho\Library\bin\System.Net.Http.Formatting.dll
+C:\叡揚實習\新人訓練\WorkShop\Course5_george_ho\Library\bin\System.Web.Http.dll
+C:\叡揚實習\新人訓練\WorkShop\Course5_george_ho\Library\bin\System.Web.Http.WebHost.dll
+C:\叡揚實習\新人訓練\WorkShop\Course5_george_ho\Library\bin\System.Net.Http.Formatting.xml
+C:\叡揚實習\新人訓練\WorkShop\Course5_george_ho\Library\bin\System.Web.Http.xml
+C:\叡揚實習\新人訓練\WorkShop\Course5_george_ho\Library\bin\System.Web.Http.WebHost.xml
+C:\叡揚實習\新人訓練\WorkShop\Course5_george_ho\Library\bin\Newtonsoft.Json.dll
